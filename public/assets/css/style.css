@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(254, 254, 254);
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #a090ff;
+  max-width: 100%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.container{
+  border: 10px;
+  border-color: black;
+}
+
+.topContainer{
+  border: 1px solid black;
+}

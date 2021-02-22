@@ -10,11 +10,7 @@
 
 <div class="container" style="border: 10px;">
   <div class="row" style="align-text: center;">
-    <div class="col-4 d-flex justify-content-center text-center">
-      <center>
-        
-      </center>
-    </div>
+    
   </div>
   <div class="row" style="align-text: center;">
     <div class="col-4 d-flex justify-content-center text-center">
@@ -30,7 +26,7 @@
       </ul>
 
     </div>
-    <div class="col-4 d-flex justify-content-center text-center" style="background-color: #469f5b;">
+    <div class="col-4 d-flex justify-content-center text-center" style="background-color: #469f5b;padding: 0px,0px,0px,10px;">
       <br>
       <center>
        
@@ -43,21 +39,19 @@
           <input type="text" id="ca" name="ca">
         </div>
 
-        <div class="form-group">
+        <div class="form-group" style="color: azure;">
           <label for="devoured"></label>
           <input type="radio" name="devoured" value="1" checked> Devoured!<br>
           <input type="radio" name="devoured" value="0"> Yet to Be Devoured...
         </div>
-        <button type="submit" class="btn btn-danger">Add Burger</button>
+        <button type="submit" class="hange-devoured btn btn-primary btn-sm">Add Burger</button>
       </form>
 
     </div>
-    <div class="col-4 d-flex justify-content-center text-center">
-      <br>
-
-      <ul>
+    <div class="col-4 d-flex justify-content-center text-center" style="padding: 0px,0px,0px,10px;">
+          <ul>
         <img src="./assets/img/3.png "
-        style="width: 100%; ">
+        style="width: 100%; margin: 0">
         {{#each burgers}}
         {{#if devoured}}
         {{> burgers/burgers-block devoured=false}}

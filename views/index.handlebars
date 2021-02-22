@@ -1,76 +1,63 @@
-  
-  
-  
-<div class="container" style=" border-width: 5px" >
+<div class="topContainer" style=" border-width: 5px">
   <div class="row" style="align-text: center;">
+    
     <div class="col-12 d-flex justify-content-center text-center">
-       <br>
-            
-     <center><h1>Veggie Burgers!!</h1></center>
-    </div>
-    <div class="col-12 d-flex justify-content-center text-center">
-       <br>
-            
-      <img src="https://raw.githubusercontent.com/skyelucking/13-Node-Burger/main/views/cow_burger.jpg"
-        style="width: 250px;">
+            <img src="./assets/img/1.png "
+        style="width: 100%; height: 100%">
     </div>
   </div>
 </div>
 
-<div class="container border-dark" >
-  <div class="row" >
-    <div class="col-4 d-flex justify-content-center text-center">
-       <br>
-       <center> <h2>Yum! Yum! Yum!</h2>     </center>
-     
-    </div>
-    <div class="col-3 d-flex justify-content-center text-center">
-       <br>
-       <center> <h2>Add a Burger!</h2></center>     
-     
-    </div>
-    <div class="col-5 d-flex justify-content-center text-center">
-       <br>
-            
-       <center><h2>Nom! Nom! Nom!</h2></center>
-    </div>
-  </div>
-</div>
-<div class="container"  >
+<div class="container" style="border: 10px;">
   <div class="row" style="align-text: center;">
     <div class="col-4 d-flex justify-content-center text-center">
-       <br>
-        <ul>
+      <center>
+        
+      </center>
+    </div>
+  </div>
+  <div class="row" style="align-text: center;">
+    <div class="col-4 d-flex justify-content-center text-center">
+
+      <ul>
+        <img src="./assets/img/4.png "
+        style="width: 100%; padding: 5px; padding-top: 5px">
         {{#each burgers}}
         {{#unless devoured}}
         {{> burgers/burgers-block devoured=true}}
         {{/unless}}
         {{/each}}
-      </ul>    
-     
-    </div>
-    <div class="col-3 d-flex justify-content-center text-center">
-       <br>
-        <form class="create-form">
+      </ul>
 
-        <div class="form-group">
+    </div>
+    <div class="col-4 d-flex justify-content-center text-center" style="background-color: #469f5b;">
+      <br>
+      <center>
+       
+      </center>
+      <form class="create-form">
+
+        <div class="form-group" style="background-color: #469f5b; color: azure"> <img src="./assets/img/2.png "
+        style="width: 100%; ">
           <label for="ca">Burger Name:</label>
           <input type="text" id="ca" name="ca">
         </div>
 
         <div class="form-group">
-          <label for="devoured"></label><br>
+          <label for="devoured"></label>
           <input type="radio" name="devoured" value="1" checked> Devoured!<br>
           <input type="radio" name="devoured" value="0"> Yet to Be Devoured...
         </div>
         <button type="submit" class="btn btn-danger">Add Burger</button>
-      </form>   
-     
+      </form>
+
     </div>
-     <div class="col-5 d-flex justify-content-center text-center">
-       <br>
-            
+    <div class="col-4 d-flex justify-content-center text-center">
+      <br>
+
       <ul>
+        <img src="./assets/img/3.png "
+        style="width: 100%; padding: 5px; padding-top: 5px">
         {{#each burgers}}
         {{#if devoured}}
         {{> burgers/burgers-block devoured=false}}

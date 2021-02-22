@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(254, 254, 254);
+  background-color: rgb(235, 233, 177);
 }
 
 li {
@@ -7,6 +7,14 @@ li {
   margin: 5px;
   background: #a090ff;
   max-width: 100%;
+}
+
+.liBurger {
+  padding: 5px;
+  margin: 5px;
+  background: #469f5b;
+  max-width: 100%;
+  color: azure;
 }
 
 .label {
@@ -26,8 +34,25 @@ li {
 .container{
   border: 10px;
   border-color: black;
+  width: 90%;
 }
 
 .topContainer{
-  border: 1px solid black;
+  border: 1px solid rgb(36, 97, 39);
+  width: 90%;
+  border-radius: 2%;
+  text-align: center;
+  float: absolute;
+  margin: auto;
+  background-color: #469f5b;
+  color: azure;
+}
+
+.bottomMenu{
+  border: 1px solid rgb(19, 109, 52);
+  width: 75%;
+  border-radius: 10%;
+  text-align: center;
+  float: absolute;
+  margin: auto;
 }

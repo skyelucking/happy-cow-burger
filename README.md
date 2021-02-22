@@ -40,6 +40,8 @@ You can move burgers between columns with the buttons
 <a href="https://github.com/skyelucking/happy-cow-burger">https://github.com/skyelucking/happy-cow-burger</a>
 
 <hr>
+<h1>Link to Portfolio Page Where Project is Highlighted</h1>
+<a href="https://skyelucking.github.io/codingBootcamp_portfolio.html">https://skyelucking.github.io/codingBootcamp_portfolio.html</a>
 
 <h1>Now here is your joke...</h1> <br>
 Q: What do you call cattle that tell jokes?
@@ -47,4 +49,4 @@ Q: What do you call cattle that tell jokes?
 <br>
 <br>
 <br>
-<em>– A: Laughing stock./em>
+<em>– A: Laughing stock.</em>

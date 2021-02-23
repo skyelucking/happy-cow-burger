@@ -33,7 +33,7 @@ You can move burgers between columns with the buttons
 <img src="SS4.png"><br>
 <hr>
 <h1>Link Heroku Deployed App</h1>
-<a href="https://happy-cow-burger.herokuapp.com/">Ahttps://happy-cow-burger.herokuapp.com/</a>
+<a href="https://happy-cow-burger.herokuapp.com/">https://happy-cow-burger.herokuapp.com/</a>
 <hr>
 
 <h1>Link to GitHub Repo</h1>
